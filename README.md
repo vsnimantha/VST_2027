@@ -92,29 +92,36 @@ The project configuration is stored in the `Config` directory. Check the generat
 
 ### 3. Generate a program
 
-The main generator entry point is in:
-
-- `SynCR/Program_Generator/program_generator_tmpl.py`
-
-You can run it directly with:
+The current verified entry point for direct generation is the generator module itself:
 
 ```bash
-cd SynCR
+cd /path/to/SynCR
+python3 -m Program_Generator.program_generator_tmpl
+```
+
+This is the main program-generation entry point for the current version. The module contains the `if __name__ == '__main__': generate_program_main()` block that triggers generation from the project root.
+
+The script can also be executed directly:
+
+```bash
+cd /path/to/SynCR
 python3 Program_Generator/program_generator_tmpl.py
 ```
 
-This uses the configured template manager and grammar block map to generate C++ code.
+Both approaches start the same generator workflow and use the configured template manager, grammar rules, and static-analysis/formatting options.
 
 ### 4. Run the dispatcher
 
-The dispatcher can be used to generate code and trigger downstream analysis or feedback pipelines:
+The dispatcher is a separate workflow entry point for downstream processing and feedback integration:
 
 ```bash
-cd SynCR
+cd /path/to/SynCR
 python3 -m Program_Dispatcher.program_dispatcher
 ```
 
-This entry point creates generated C++ output and sends it to the configured feedback destination.
+This script creates generated C++ output and sends it to the configured feedback destination.
+
+> Important: for pure generation, the correct entry point is `Program_Generator.program_generator_tmpl`. The dispatcher is for workflow execution beyond plain generation.
 
 ### 5. Review generated artifacts
 

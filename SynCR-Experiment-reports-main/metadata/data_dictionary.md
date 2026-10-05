@@ -61,6 +61,17 @@ This workbook is intended to provide aggregated summaries or analysis derived fr
 
 The directory naming convention is date- and timestamp-based, which supports run-level traceability. Each run should be treated as an independent experimental observation unless otherwise documented in the analysis materials.
 
+## How to generate program artifacts
+
+For direct generation of new program variants using the current SynCR version, the supported generation entry point is:
+
+```bash
+cd /path/to/SynCR
+python3 -m Program_Generator.program_generator_tmpl
+```
+
+This command executes the generator module from the project root. The dispatcher is a separate workflow step and is not required for plain generation.
+
 ## Recommendation for reuse
 
 For a paper or reproducibility study, the recommended unit of analysis is:

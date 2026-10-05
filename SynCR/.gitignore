@@ -1,9 +1,12 @@
 # Ignore node_modules directory
 /Data/AST/
 /Output
+/Compiler_Testing_For_GP
 
 # Ignore log files
 #*.log
+
+*.cpp
 
 # Ignore compiled output
 #*.o
@@ -14,3 +17,10 @@
 .DS_Store
 Thumbs.db
 *.pyc
+*.pyo
+__pycache__/
+
+# Grammar/Program_Constructs_CPP(Backup)Output.zip
+Output.zip
+
+
