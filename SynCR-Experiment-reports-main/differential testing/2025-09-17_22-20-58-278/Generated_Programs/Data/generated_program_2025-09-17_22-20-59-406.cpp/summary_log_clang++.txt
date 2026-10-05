@@ -1,0 +1,15 @@
+
+=================== Compilation Summary ====================
+Total attempts: 66
+Successful compilations: 63
+Failed compilations: 3
+
+Top Failure Reasons:
+- General Compilation Error: 3 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-09-17_22-20-58-278/Generated_Programs/Data/generated_program_2025-09-17_22-20-59-406.cpp/success_log_clang++.json
+- Internal compilation errors: Output/2025-09-17_22-20-58-278/Generated_Programs/Data/generated_program_2025-09-17_22-20-59-406.cpp/ice_error_log_clang++.json
+- Errors: Output/2025-09-17_22-20-58-278/Generated_Programs/Data/generated_program_2025-09-17_22-20-59-406.cpp/error_log_clang++.json
+- Differential Testing results: Output/2025-09-17_22-20-58-278/Generated_Programs/Data/generated_program_2025-09-17_22-20-59-406.cpp/differential_log_clang++.json
+============================================================

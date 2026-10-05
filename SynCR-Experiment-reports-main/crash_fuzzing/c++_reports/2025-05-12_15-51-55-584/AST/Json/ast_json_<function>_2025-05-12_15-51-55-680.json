@@ -1,0 +1,82 @@
+{
+  "type": "root",
+  "value": "<function>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "float",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "thetaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "()",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<printf_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "printf(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"MQ6LNTHJUYTRHJGX15NX\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

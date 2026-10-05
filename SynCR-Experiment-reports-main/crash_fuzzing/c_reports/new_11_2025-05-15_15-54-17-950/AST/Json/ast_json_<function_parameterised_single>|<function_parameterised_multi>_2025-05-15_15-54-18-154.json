@@ -1,0 +1,115 @@
+{
+  "type": "root",
+  "value": "<function_parameterised_single>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_parameterised_single>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "double",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "gammaPrimeFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<parameter>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<data_type>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "char",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "rule",
+              "value": "<identifier_parameter>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "deltaPsiParam",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<print_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "printf(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"MIXZWF8U8TUGD8DO4RPU\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

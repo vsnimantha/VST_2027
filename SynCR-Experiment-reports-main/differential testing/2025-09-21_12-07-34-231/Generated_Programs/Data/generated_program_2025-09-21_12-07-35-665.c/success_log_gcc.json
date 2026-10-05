@@ -1,0 +1,2178 @@
+[
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0887.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0887.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0724.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0724.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0010.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0010.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0024.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0024.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0066.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0066.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0009.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0009.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-fno-strict-aliasing",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0830.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0830.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-ffast-math",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0286.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0286.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=address",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0923.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0923.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=undefined",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0858.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0858.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=leak",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0670.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0670.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-m64",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0518.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0518.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-march=native",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c99 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0916.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0916.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 5,
+            "flags_used": [
+                "-mavx2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c99"
+        ],
+        "command": "gcc -std=c99 -Wall -Wextra -Wconversion -std=c99 Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Wall', '-Wextra', '-Wconversion', '-std=c99']_0100.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Wall', '-Wextra', '-Wconversion', '-std=c99']_0100.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c99"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c11"
+        ],
+        "command": "gcc -std=c99 -Wall -Wextra -Wconversion -std=c11 Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Wall', '-Wextra', '-Wconversion', '-std=c11']_0385.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-Wall', '-Wextra', '-Wconversion', '-std=c11']_0385.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c11"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c99 -g2 -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-g2', '-Wall', '-Wextra', '-Wconversion']_0718.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-g2', '-Wall', '-Wextra', '-Wconversion']_0718.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-g2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c99 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0285.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0285.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-gdwarf-4",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c99 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0679.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0679.o",
+        "warnings": "cc1: warning: variable tracking requested, but useless unless producing debug info\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "cc1: warning: variable tracking requested, but useless unless producing debug info",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "variable tracking requested, but useless unless producing debug info",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-fvar-tracking",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c99 -fPIC -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0257.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0257.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-fPIC",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c99 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0448.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0448.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-fstack-protector-strong",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c99 -fno-common -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0014.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c99_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0014.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c99",
+            "flag_count": 4,
+            "flags_used": [
+                "-fno-common",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0887.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0887.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0724.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0724.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0010.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0010.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0024.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0024.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0066.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0066.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0009.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0009.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fno-strict-aliasing",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0830.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0830.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-ffast-math",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0286.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0286.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=address",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0923.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0923.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=undefined",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0858.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0858.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=leak",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0670.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0670.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-m64",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0518.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0518.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-march=native",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc -std=c11 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0916.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0916.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018piPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]\n   20 |     for (int i = 0; i < 10; i++) {\n      |              ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:18:12: note: shadowed declaration is here\n   18 |   for (int i = 15; i <= 10; i++) {\n      |            ^\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:20:14: warning: declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "declaration of \u2018i\u2019 shadows a previous local [-Wshadow]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 5,
+            "flags_used": [
+                "-mavx2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c99"
+        ],
+        "command": "gcc -std=c11 -Wall -Wextra -Wconversion -std=c99 Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Wall', '-Wextra', '-Wconversion', '-std=c99']_0100.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Wall', '-Wextra', '-Wconversion', '-std=c99']_0100.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c99"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c11"
+        ],
+        "command": "gcc -std=c11 -Wall -Wextra -Wconversion -std=c11 Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Wall', '-Wextra', '-Wconversion', '-std=c11']_0385.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-Wall', '-Wextra', '-Wconversion', '-std=c11']_0385.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c11"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c11 -g2 -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-g2', '-Wall', '-Wextra', '-Wconversion']_0718.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-g2', '-Wall', '-Wextra', '-Wconversion']_0718.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-g2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c11 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0285.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0285.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-gdwarf-4",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c11 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0679.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0679.o",
+        "warnings": "cc1: warning: variable tracking requested, but useless unless producing debug info\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "cc1: warning: variable tracking requested, but useless unless producing debug info",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "variable tracking requested, but useless unless producing debug info",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fvar-tracking",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c11 -fPIC -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0257.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0257.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fPIC",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c11 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0448.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0448.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fstack-protector-strong",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "gcc -std=c11 -fno-common -Wall -Wextra -Wconversion Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c -o Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0014.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-21_12-07-34-231/Generated_Programs/Compiled/generated_program_2025-09-21_12-07-35-665.c/generated_program_2025-09-21_12-07-35-665.c_gcc_c11_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0014.o",
+        "warnings": "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018kappaPrimeFunc\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]\n   14 |   int etaPhi = 4 + 17;\n      |       ^~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c: In function \u2018main\u2019:\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]\n   33 |     double muUpsilon = 5 - 14;\n      |            ^~~~~~~~~\nOutput/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]\n   31 |   int xi = 68;\n      |       ^~\n",
+        "compiler": "gcc",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 3,
+                "items": [
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:14:7: warning: unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:33:12: warning: unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                    "Output/2025-09-21_12-07-34-231/Generated_Programs/generated_program_2025-09-21_12-07-35-665.c:31:7: warning: unused variable \u2018xi\u2019 [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable \u2018etaPhi\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018muUpsilon\u2019 [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable \u2018xi\u2019 [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fno-common",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    }
+]

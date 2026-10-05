@@ -1,0 +1,271 @@
+{
+  "type": "root",
+  "value": "<if_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<if_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<boolean_literal>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "true",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<for_loop>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "for",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_initialization>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_data_type>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "int",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_identifier>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "i",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": "=",
+                      "children": []
+                    },
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_value>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "0",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_condition>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_condition_greater_than_or_equal>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "i>=",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<for_loop_value>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "0",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": ";",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_update>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_identifier>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "i",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": "++",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "){",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<print_statement>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "std::cout<<",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<message>",
+                          "children": [
+                            {
+                              "type": "rule",
+                              "value": "<rand_messages>",
+                              "children": [
+                                {
+                                  "type": "terminal",
+                                  "value": "\"Code execution started\"",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "<<std::endl;",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "else",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<print_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "std::cout<<",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"0ZW5UHQBED44N154YF5G\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "<<std::endl;",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

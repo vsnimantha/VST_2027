@@ -1,0 +1,2594 @@
+[
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0393.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0393.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0522.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0522.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0117.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0117.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0163.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0163.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0118.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0118.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0474.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0474.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fno-strict-aliasing",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0580.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0580.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-ffast-math",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0255.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0255.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=address",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0423.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0423.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=undefined",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0326.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0326.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=leak",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0317.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0317.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-m64",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0319.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0319.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-march=native",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++11 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0293.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0293.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 5,
+            "flags_used": [
+                "-mavx2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "clang++ -std=c++11 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0813.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0813.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++11"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++17"
+        ],
+        "command": "clang++ -std=c++11 -Wall -Wextra -Wconversion -std=c++17 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++17']_0730.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++17']_0730.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++17"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++20"
+        ],
+        "command": "clang++ -std=c++11 -Wall -Wextra -Wconversion -std=c++20 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++20']_0474.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++20']_0474.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++20"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++11 -g2 -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-g2', '-Wall', '-Wextra', '-Wconversion']_0109.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-g2', '-Wall', '-Wextra', '-Wconversion']_0109.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-g2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++11 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0000.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0000.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-gdwarf-4",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++11 -fPIC -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0543.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0543.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fPIC",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++11 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0599.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0599.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fstack-protector-strong",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++11 -fno-common -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0372.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++11_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0372.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 4,
+            "flags_used": [
+                "-fno-common",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0393.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0393.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0522.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0522.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0117.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0117.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0163.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0163.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0118.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0118.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0474.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0474.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-fno-strict-aliasing",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0580.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0580.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-ffast-math",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0255.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0255.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=address",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0423.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0423.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=undefined",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0326.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0326.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=leak",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0317.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0317.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-m64",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0319.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0319.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-march=native",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++17 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0293.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0293.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 5,
+            "flags_used": [
+                "-mavx2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "clang++ -std=c++17 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0813.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0813.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++11"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++17"
+        ],
+        "command": "clang++ -std=c++17 -Wall -Wextra -Wconversion -std=c++17 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++17']_0730.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++17']_0730.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++17"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++20"
+        ],
+        "command": "clang++ -std=c++17 -Wall -Wextra -Wconversion -std=c++20 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++20']_0474.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++20']_0474.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++20"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++17 -g2 -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-g2', '-Wall', '-Wextra', '-Wconversion']_0109.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-g2', '-Wall', '-Wextra', '-Wconversion']_0109.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-g2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++17 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0000.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0000.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-gdwarf-4",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++17 -fPIC -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0543.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0543.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-fPIC",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++17 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0599.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0599.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-fstack-protector-strong",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++17 -fno-common -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0372.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++17_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0372.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 4,
+            "flags_used": [
+                "-fno-common",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0393.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0393.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0522.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0522.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0117.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0117.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0163.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0163.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0118.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0118.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0474.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0474.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-fno-strict-aliasing",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0580.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0580.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-ffast-math",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0255.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0255.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=address",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0423.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0423.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=undefined",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0326.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0326.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-fsanitize=leak",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0317.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0317.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-m64",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0319.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0319.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-march=native",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++ -std=c++20 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0293.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0293.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 5,
+            "flags_used": [
+                "-mavx2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "clang++ -std=c++20 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0813.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0813.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++11"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++17"
+        ],
+        "command": "clang++ -std=c++20 -Wall -Wextra -Wconversion -std=c++17 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++17']_0730.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++17']_0730.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++17"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++20"
+        ],
+        "command": "clang++ -std=c++20 -Wall -Wextra -Wconversion -std=c++20 Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++20']_0474.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++20']_0474.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
+                "-std=c++20"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++20 -g2 -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-g2', '-Wall', '-Wextra', '-Wconversion']_0109.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-g2', '-Wall', '-Wextra', '-Wconversion']_0109.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-g2",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++20 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0000.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0000.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-gdwarf-4",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++20 -fPIC -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0543.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0543.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-fPIC",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++20 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0599.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0599.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-fstack-protector-strong",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++20 -fno-common -Wall -Wextra -Wconversion Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp -o Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0372.o",
+        "status": "Success",
+        "output_file": "Output/2025-09-30_14-35-03-303/Generated_Programs/Compiled/generated_program_2025-09-30_14-35-04-090.cpp/generated_program_2025-09-30_14-35-04-090.cpp_clang++_c++20_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0372.o",
+        "warnings": "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]\n   23 |     double xiRho = 4 / 7;\n      |            ^~~~~\n1 warning generated.\n",
+        "compiler": "clang++",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 1,
+                "items": [
+                    "Output/2025-09-30_14-35-03-303/Generated_Programs/generated_program_2025-09-30_14-35-04-090.cpp:23:12: warning: unused variable 'xiRho' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "unused variable 'xiRho' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 4,
+            "flags_used": [
+                "-fno-common",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion"
+            ]
+        }
+    }
+]

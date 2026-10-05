@@ -1,0 +1,152 @@
+{
+  "type": "root",
+  "value": "<function_recursive>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_recursive>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "omicronFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num,",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "){",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<printf_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "printf(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"This is a sample print statement\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": ">=",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "5)",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num;",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "omicronFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(num,index-1);}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

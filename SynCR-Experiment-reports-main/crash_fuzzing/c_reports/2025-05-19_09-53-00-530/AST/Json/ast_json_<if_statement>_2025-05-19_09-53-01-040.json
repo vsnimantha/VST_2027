@@ -1,0 +1,237 @@
+{
+  "type": "root",
+  "value": "<if_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<if_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<boolean_literal>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "true",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<while_loop>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "while",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<boolean_literal>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "false",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ")",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "{",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<while_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<print_statement>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "printf(",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<message>",
+                          "children": [
+                            {
+                              "type": "rule",
+                              "value": "<rand_messages>",
+                              "children": [
+                                {
+                                  "type": "terminal",
+                                  "value": "\"Security check passed\"",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": ");",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "else",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<while_loop>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "while",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<boolean_literal>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "true",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ")",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "{",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<while_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<print_statement>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "printf(",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<message>",
+                          "children": [
+                            {
+                              "type": "rule",
+                              "value": "<rand_messages>",
+                              "children": [
+                                {
+                                  "type": "terminal",
+                                  "value": "\"Exiting function\"",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": ");",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

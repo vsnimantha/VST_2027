@@ -1,0 +1,66 @@
+[
+    {
+        "filename": "Output/2025-09-21_12-15-41-103/Generated_Programs/generated_program_2025-09-21_12-15-41-573.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang-15 -std=c99 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_12-15-41-103/Generated_Programs/generated_program_2025-09-21_12-15-41-573.c -o Output/2025-09-21_12-15-41-103/Generated_Programs/Compiled/generated_program_2025-09-21_12-15-41-573.c/generated_program_2025-09-21_12-15-41-573.c_clang-15_c99_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0007.o",
+        "status": "Failed",
+        "error": "clang: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang-15",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-21_12-15-41-103/Generated_Programs/generated_program_2025-09-21_12-15-41-573.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang-15 -std=c11 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_12-15-41-103/Generated_Programs/generated_program_2025-09-21_12-15-41-573.c -o Output/2025-09-21_12-15-41-103/Generated_Programs/Compiled/generated_program_2025-09-21_12-15-41-573.c/generated_program_2025-09-21_12-15-41-573.c_clang-15_c11_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0007.o",
+        "status": "Failed",
+        "error": "clang: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang-15",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    }
+]

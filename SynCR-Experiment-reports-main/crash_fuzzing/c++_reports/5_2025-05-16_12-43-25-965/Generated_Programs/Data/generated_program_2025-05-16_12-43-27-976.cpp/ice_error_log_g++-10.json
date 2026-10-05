@@ -1,0 +1,482 @@
+[
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++14"
+        ],
+        "command": "g++-10 -std=c++98 -Wall -Wextra -pedantic -std=c++14 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++98_0526.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x7a7171c2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7a7171c2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x7a7171c2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7a7171c2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=c++14"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++14"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++14"
+        ],
+        "command": "g++-10 -std=c++98 -Wall -Wextra -pedantic -std=gnu++14 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++98_0697.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x7b619c42a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7b619c42a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x7b619c42a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7b619c42a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=gnu++14"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++14"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++17"
+        ],
+        "command": "g++-10 -std=c++98 -Wall -Wextra -pedantic -std=c++17 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++98_0678.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x7e6ee8e2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7e6ee8e2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x7e6ee8e2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7e6ee8e2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=c++17"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++17"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++17"
+        ],
+        "command": "g++-10 -std=c++98 -Wall -Wextra -pedantic -std=gnu++17 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++98_0838.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x740d93c2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x740d93c2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x740d93c2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x740d93c2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=gnu++17"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++17"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++20"
+        ],
+        "command": "g++-10 -std=c++98 -Wall -Wextra -pedantic -std=c++20 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++98_0741.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x7717ba42a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7717ba42a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x7717ba42a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7717ba42a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=c++20"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++20"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++20"
+        ],
+        "command": "g++-10 -std=c++98 -Wall -Wextra -pedantic -std=gnu++20 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++98_0078.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x7ca5bf82a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7ca5bf82a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x7ca5bf82a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7ca5bf82a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=gnu++20"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++20"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++14"
+        ],
+        "command": "g++-10 -std=gnu++98 -Wall -Wextra -pedantic -std=c++14 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_gnu++98_0526.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x73641c02a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x73641c02a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x73641c02a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x73641c02a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=c++14"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++14"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++14"
+        ],
+        "command": "g++-10 -std=gnu++98 -Wall -Wextra -pedantic -std=gnu++14 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_gnu++98_0697.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x72723382a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x72723382a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x72723382a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x72723382a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=gnu++14"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++14"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++17"
+        ],
+        "command": "g++-10 -std=gnu++98 -Wall -Wextra -pedantic -std=c++17 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_gnu++98_0678.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x76b6fec2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x76b6fec2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x76b6fec2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x76b6fec2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=c++17"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++17"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++17"
+        ],
+        "command": "g++-10 -std=gnu++98 -Wall -Wextra -pedantic -std=gnu++17 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_gnu++98_0838.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x7a336502a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7a336502a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x7a336502a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x7a336502a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=gnu++17"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++17"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++20"
+        ],
+        "command": "g++-10 -std=gnu++98 -Wall -Wextra -pedantic -std=c++20 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_gnu++98_0741.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x78aea382a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x78aea382a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x78aea382a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x78aea382a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=c++20"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++20"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++98",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++20"
+        ],
+        "command": "g++-10 -std=gnu++98 -Wall -Wextra -pedantic -std=gnu++20 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_gnu++98_0078.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: internal compiler error: in expand_expr_real_1, at expr.c:10134\n0x73ad06a2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x73ad06a2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "g++-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "in expand_expr_real_1, at expr.c:10134\n0x73ad06a2a1c9 __libc_start_call_main\n\t../sysdeps/x86/libc-start.c:58\n0x73ad06a2a28a __libc_start_main_impl\n\t../sysdeps/nptl/libc_start_call_main.h:360\nPlease submit a full bug report,\nwith preprocessed source if appropriate.\nPlease include the complete backtrace with any bug report.\nSee <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-std=gnu++20"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=gnu++20"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-std=c++14"
+        ],
+        "command": "g++-10 -std=c++11 -Wall -Wextra -pedantic -std=c++14 Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp -o Output/2025-05-16_12-43-25-965/Generated_Programs/Compiled/generated_program_2025-05-16_12-43-27-976.cpp_c++11_0526.o",
+        "status": "Failed",
+        "error": "Output/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018auto f(int)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:9:8: warning: ISO C++ forbids variable length array \u2018a\u2019 [-Wvla]\n    9 |   int(*a)[n] = 0;\n      |        ^\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018bool xiFunc()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:24:8: warning: unused variable \u2018thetaChi\u2019 [-Wunused-variable]\n   24 |   bool thetaChi = true;\n      |        ^~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018void zetaFunc(double)\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:29:7: warning: unused variable \u2018rhoUpsilon\u2019 [-Wunused-variable]\n   29 |   int rhoUpsilon = 8 + 1;\n      |       ^~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int main()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:38:9: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   38 |     int upsilon = 16 + 11;\n      |         ^~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:45:12: warning: unused variable \u2018deltaEpsilon\u2019 [-Wunused-variable]\n   45 |     double deltaEpsilon = 18 - 11;\n      |            ^~~~~~~~~~~~\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp: In function \u2018int g()\u2019:\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-16_12-43-27-976.cpp:13:29: warning: \u2018<anonymous>\u2019 is used uninitialized in this function [-Wuninitialized]\n   13 | int g() { return sizeof *f(1); }\n      |                             ^\nduring RTL pass: expand\nOutput/2025-05-16_12-43-25-965/Generated_Programs/generated_program_2025-05-1

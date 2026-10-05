@@ -1,0 +1,215 @@
+{
+  "type": "root",
+  "value": "<if_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<if_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<boolean_literal>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "true",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<array>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "char",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "phiDelta",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "[",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_size>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "10",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "]",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_values>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "{'v','t','K','o','u','X','j','p','v','z'}",
+                      "children": []
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "else",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<array>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "xiBeta",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "[",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_size>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "6",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "]",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_values>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "{6.0f,7.0f,3.0f,20.0f,19.0f,11.0f}",
+                      "children": []
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

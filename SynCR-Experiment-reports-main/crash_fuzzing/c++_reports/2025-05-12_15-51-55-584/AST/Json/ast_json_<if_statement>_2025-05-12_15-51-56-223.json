@@ -1,0 +1,216 @@
+{
+  "type": "root",
+  "value": "<if_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<if_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<boolean_literal>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "true",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<math_expression>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<math_data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "double",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "phiDelta",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_number>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "13",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_operation>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "/",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_number>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "2",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ";",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "else",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<array>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "string",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "iotaChi",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "[",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_size>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "20",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "]",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_values>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "{\"MysticHarmony\",\"CrystalCascade\",\"GoldenPhoenix\",\"RadiantEcho\",\"CrystalCascade\",\"CrystalCascade\",\"MysticHarmony\",\"MysticHarmony\",\"MysticHarmony\",\"EtherealGlow\",\"CelestialJourney\",\"CelestialJourney\",\"CrystalCascade\",\"ZNZ4ZMTDIB\",\"MajesticWhisper\",\"MajesticWhisper\",\"GoldenPhoenix\",\"CrystalCascade\",\"MysticHarmony\",\"CrystalCascade\"}",
+                      "children": []
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

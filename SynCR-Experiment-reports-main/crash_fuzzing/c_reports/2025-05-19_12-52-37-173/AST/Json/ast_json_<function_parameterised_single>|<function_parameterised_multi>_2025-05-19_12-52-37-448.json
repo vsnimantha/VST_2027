@@ -1,0 +1,231 @@
+{
+  "type": "root",
+  "value": "<function_parameterised_multi>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_parameterised_multi>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "int",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "kappaPrimeFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<parameter_list>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "thetaOmegaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "string",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "nuPiParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "omegaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<math_expression>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<math_data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "double",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "betaTau",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_number>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "16",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_operation>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "/",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_number>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "13",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ";",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

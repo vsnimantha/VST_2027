@@ -1,0 +1,15 @@
+// AST
+digraph {
+	rankdir=TB
+	131236201260288 [label="root: <print_statement>"]
+	131236201262208 [label="rule: <print_statement>"]
+	131236201260288 -> 131236201262208
+	131236201260480 [label="terminal: std::cout<<"]
+	131236201262208 -> 131236201260480
+	131236201261568 [label="rule: <message>"]
+	131236201262208 -> 131236201261568
+	131236201262528 [label="terminal: \"This is a sample print statement\""]
+	131236201261568 -> 131236201262528
+	131236201262848 [label="terminal: <<std::endl;"]
+	131236201262208 -> 131236201262848
+}

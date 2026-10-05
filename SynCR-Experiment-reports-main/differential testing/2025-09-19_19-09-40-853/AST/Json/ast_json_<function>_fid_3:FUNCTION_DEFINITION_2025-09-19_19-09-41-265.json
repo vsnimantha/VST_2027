@@ -1,0 +1,89 @@
+{
+  "type": "root",
+  "placeholder_name": "fid_3:FUNCTION_DEFINITION",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "return_type",
+              "value": "void",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "psiFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "()",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<print_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "std::cout<<",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<rand_messages>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "\"Operation timed out\"",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "<<std::endl;",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

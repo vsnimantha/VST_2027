@@ -1,0 +1,172 @@
+{
+  "type": "root",
+  "value": "<if_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<if_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<boolean_literal>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "true",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<array>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "string",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "epsilon",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "[",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_size>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "20",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "]",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_values>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "{\"InfiniteDreams\",\"CrystalCascade\",\"RadiantEcho\",\"InfiniteDreams\",\"CrystalCascade\",\"AzureFlame\",\"LFKL0S83ZV\",\"InfiniteDreams\",\"CrystalCascade\",\"RadiantEcho\",\"CelestialJourney\",\"AzureFlame\",\"RadiantEcho\",\"CrystalCascade\",\"BrilliantStar\",\"AzureFlame\",\"IALIKCGKCE\",\"CelestialJourney\",\"MysticHarmony\",\"JFBG7UISPB\"}",
+                      "children": []
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "else",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<printf_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "std::printf(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"This is a sample print statement\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

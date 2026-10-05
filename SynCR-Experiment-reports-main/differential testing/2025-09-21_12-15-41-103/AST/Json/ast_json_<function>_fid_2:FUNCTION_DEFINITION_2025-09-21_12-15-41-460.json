@@ -1,0 +1,180 @@
+{
+  "type": "root",
+  "placeholder_name": "fid_2:FUNCTION_DEFINITION",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "return_type",
+              "value": "void",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "nunFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "()",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<while_loop>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "while",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<boolean_literal>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "false",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ")",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "{",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<while_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<array>",
+                      "children": [
+                        {
+                          "type": "rule",
+                          "value": "<data_type>",
+                          "children": [
+                            {
+                              "type": "data_type",
+                              "value": "float",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<identifier>",
+                          "children": [
+                            {
+                              "type": "identifier",
+                              "value": "xiRho",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "[",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<array_size>",
+                          "children": [
+                            {
+                              "type": "array_size",
+                              "value": "1",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "]",
+                          "children": []
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "=",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<array_values>",
+                          "children": [
+                            {
+                              "type": "rule",
+                              "value": "<rand_array_values>",
+                              "children": [
+                                {
+                                  "type": "array_values",
+                                  "value": "{8.0f}",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "terminal",
+                              "value": ";",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

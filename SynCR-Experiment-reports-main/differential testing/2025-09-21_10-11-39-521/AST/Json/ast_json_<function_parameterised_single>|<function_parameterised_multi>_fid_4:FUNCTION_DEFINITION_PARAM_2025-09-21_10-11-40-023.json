@@ -1,0 +1,194 @@
+{
+  "type": "root",
+  "placeholder_name": "fid_4:FUNCTION_DEFINITION_PARAM",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_parameterised_multi>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "return_type",
+              "value": "float",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "nuFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<parameter_list>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "data_type",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "identifier_parameter",
+                      "value": "upsilonPhiParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "data_type",
+                      "value": "bool",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "identifier_parameter",
+                      "value": "chiThetaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "data_type",
+                      "value": "string",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "identifier_parameter",
+                      "value": "nuSigmaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<print_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "std::cout<<",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<rand_messages>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "\"Network connection established\"",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "<<std::endl;",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

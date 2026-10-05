@@ -1,0 +1,17 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1330
+Successful compilations: 257
+Failed compilations: 1073
+
+Top Failure Reasons:
+- Compiler Internal Error (ICE): 1040 time(s)
+- General Compilation Error: 20 time(s)
+- Unrecognized Argument Error: 10 time(s)
+- Unused Variable Warning: 3 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-19_17-11-38-136/Generated_Programs/Data/generated_program_2025-05-19_17-11-39-146.c/success_log_gcc.json
+- Internal compilation errors: Output/2025-05-19_17-11-38-136/Generated_Programs/Data/generated_program_2025-05-19_17-11-39-146.c/ice_error_log_gcc.json
+- Errors: Output/2025-05-19_17-11-38-136/Generated_Programs/Data/generated_program_2025-05-19_17-11-39-146.c/error_log_gcc.json
+============================================================

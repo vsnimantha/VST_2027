@@ -1,0 +1,55 @@
+{
+  "type": "root",
+  "value": "<var_declaration>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<var_declaration>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<data_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "int",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "zetaXi",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<value>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "8",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ";",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

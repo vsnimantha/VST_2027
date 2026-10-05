@@ -1,0 +1,33 @@
+{
+  "type": "root",
+  "value": "<print_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<print_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "printf(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<message>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "\"S36Z8DA4HB4OWEPZNAOF\"",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ");",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+
+=================== Compilation Summary ====================
+Total attempts: 66
+Successful compilations: 42
+Failed compilations: 24
+
+Top Failure Reasons:
+- Unused Variable Warning: 21 time(s)
+- General Compilation Error: 3 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-09-19_11-36-26-824/Generated_Programs/Data/generated_program_2025-09-19_11-36-27-829.cpp/success_log_clang++.json
+- Internal compilation errors: Output/2025-09-19_11-36-26-824/Generated_Programs/Data/generated_program_2025-09-19_11-36-27-829.cpp/ice_error_log_clang++.json
+- Errors: Output/2025-09-19_11-36-26-824/Generated_Programs/Data/generated_program_2025-09-19_11-36-27-829.cpp/error_log_clang++.json
+- Differential Testing results: Output/2025-09-19_11-36-26-824/Generated_Programs/Data/generated_program_2025-09-19_11-36-27-829.cpp/differential_log_clang++.json
+============================================================

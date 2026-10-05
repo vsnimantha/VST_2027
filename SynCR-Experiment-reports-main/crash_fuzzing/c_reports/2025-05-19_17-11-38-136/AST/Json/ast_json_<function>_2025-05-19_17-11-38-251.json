@@ -1,0 +1,125 @@
+{
+  "type": "root",
+  "value": "<function>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "bool",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "psiFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "()",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<array>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "upsilon",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "[",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_size>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "6",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "]",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_values>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "{17.0f,7.0f,14.0f,17.0f,1.0f,4.0f}",
+                      "children": []
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

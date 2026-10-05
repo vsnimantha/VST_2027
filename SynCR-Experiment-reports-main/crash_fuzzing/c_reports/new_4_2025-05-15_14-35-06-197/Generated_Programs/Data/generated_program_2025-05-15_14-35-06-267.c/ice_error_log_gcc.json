@@ -1,0 +1,392 @@
+[
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c89 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu89 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c99 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu99 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c11 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu11 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c17 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu17 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c2x -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu2x -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    }
+]

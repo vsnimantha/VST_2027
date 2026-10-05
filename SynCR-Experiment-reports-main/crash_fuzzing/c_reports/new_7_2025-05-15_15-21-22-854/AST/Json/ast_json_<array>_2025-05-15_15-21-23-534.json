@@ -1,0 +1,76 @@
+{
+  "type": "root",
+  "value": "<array>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<array>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<data_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "double",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "thetaPrime",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "[",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<array_size>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "17",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "]",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<array_values>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "{7.0,3.0,15.0,1.0,16.0,12.0,3.0,7.0,8.0,12.0,9.0,2.0,8.0,20.0,10.0,16.0,9.0}",
+              "children": []
+            },
+            {
+              "type": "terminal",
+              "value": ";",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

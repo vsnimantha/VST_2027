@@ -1,0 +1,83 @@
+{
+  "type": "root",
+  "placeholder_name": "arr_1:ARRAY",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<array>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<data_type>",
+          "children": [
+            {
+              "type": "data_type",
+              "value": "int",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "identifier",
+              "value": "rhoUpsilon",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "[",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<array_size>",
+          "children": [
+            {
+              "type": "array_size",
+              "value": "11",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "]",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<array_values>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<rand_array_values>",
+              "children": [
+                {
+                  "type": "array_values",
+                  "value": "{19,6,3,4,5,13,19,6,9,19,5}",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ";",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

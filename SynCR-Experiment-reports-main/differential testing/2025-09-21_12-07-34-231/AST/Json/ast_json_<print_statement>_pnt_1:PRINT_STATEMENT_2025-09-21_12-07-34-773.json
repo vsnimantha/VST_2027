@@ -1,0 +1,40 @@
+{
+  "type": "root",
+  "placeholder_name": "pnt_1:PRINT_STATEMENT",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<print_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "printf(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<message>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<rand_messages>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "\"Recovery in progress\"",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ");",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

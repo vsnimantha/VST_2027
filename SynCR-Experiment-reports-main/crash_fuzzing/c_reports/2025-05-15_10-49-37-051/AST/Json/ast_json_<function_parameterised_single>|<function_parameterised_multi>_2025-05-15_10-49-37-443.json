@@ -1,0 +1,372 @@
+{
+  "type": "root",
+  "value": "<function_parameterised_multi>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_parameterised_multi>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "void",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "zetaPrimeFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<parameter_list>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "string",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "betaTauParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "alphaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "double",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "gammaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<do_while_loop>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<do_while_loop_initialization>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<do_while_loop_data_type>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "int",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rule",
+                      "value": "<do_while_loop_identifier>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "kl",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": "=",
+                      "children": []
+                    },
+                    {
+                      "type": "rule",
+                      "value": "<do_while_loop_value>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "0",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "do",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "{",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<do_while_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<math_expression>",
+                      "children": [
+                        {
+                          "type": "rule",
+                          "value": "<math_data_type>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "int",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<identifier>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "zetaEta",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "=",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<math_number>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "14",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<math_operation>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "-",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<math_number>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "15",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": ";",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<do_while_loop_update>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<do_while_loop_identifier>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "kl",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": "++;",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "while",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<do_while_loop_condition>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<do_while_loop_condition_less_than_or_equal>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "kl<=",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<do_while_loop_value>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "0",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

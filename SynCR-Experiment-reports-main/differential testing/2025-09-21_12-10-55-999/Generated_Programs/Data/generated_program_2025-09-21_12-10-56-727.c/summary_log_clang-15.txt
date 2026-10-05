@@ -1,0 +1,15 @@
+
+=================== Compilation Summary ====================
+Total attempts: 42
+Successful compilations: 40
+Failed compilations: 2
+
+Top Failure Reasons:
+- General Compilation Error: 2 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/success_log_clang-15.json
+- Internal compilation errors: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/ice_error_log_clang-15.json
+- Errors: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/error_log_clang-15.json
+- Differential Testing results: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/differential_log_clang-15.json
+============================================================

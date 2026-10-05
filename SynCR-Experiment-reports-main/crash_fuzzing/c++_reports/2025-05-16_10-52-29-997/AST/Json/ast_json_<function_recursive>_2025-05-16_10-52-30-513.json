@@ -1,0 +1,243 @@
+{
+  "type": "root",
+  "value": "<function_recursive>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_recursive>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "thetaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num,",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "){",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<while_loop>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "while",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<boolean_literal>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "false",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ")",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "{",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<while_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<array>",
+                      "children": [
+                        {
+                          "type": "rule",
+                          "value": "<data_type>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "float",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<identifier>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "lambdaPhi",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "[",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<array_size>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "8",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "]",
+                          "children": []
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "=",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<array_values>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "{2.0f,7.0f,89.05829797782887f,20.0f,19.0f,8.0f,20.0f,6.0f}",
+                              "children": []
+                            },
+                            {
+                              "type": "terminal",
+                              "value": ";",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": ">=",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "5)",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num;",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "thetaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(num,index-1);}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

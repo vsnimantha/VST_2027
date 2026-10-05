@@ -1,0 +1,55 @@
+{
+  "type": "root",
+  "value": "<var_declaration>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<var_declaration>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<data_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "float",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "beta",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<value>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "17.0f",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ";",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

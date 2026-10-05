@@ -1,0 +1,76 @@
+{
+  "type": "root",
+  "value": "<array>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<array>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<data_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "int",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "xiBeta",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "[",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<array_size>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "]",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<array_values>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "{9,17}",
+              "children": []
+            },
+            {
+              "type": "terminal",
+              "value": ";",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

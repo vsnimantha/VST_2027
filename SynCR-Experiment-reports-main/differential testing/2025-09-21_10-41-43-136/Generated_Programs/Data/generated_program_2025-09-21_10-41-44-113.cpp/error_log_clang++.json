@@ -1,0 +1,98 @@
+[
+    {
+        "filename": "Output/2025-09-21_10-41-43-136/Generated_Programs/generated_program_2025-09-21_10-41-44-113.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++11 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_10-41-43-136/Generated_Programs/generated_program_2025-09-21_10-41-44-113.cpp -o Output/2025-09-21_10-41-43-136/Generated_Programs/Compiled/generated_program_2025-09-21_10-41-44-113.cpp/generated_program_2025-09-21_10-41-44-113.cpp_clang++_c++11_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0770.o",
+        "status": "Failed",
+        "error": "clang++: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang++",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-21_10-41-43-136/Generated_Programs/generated_program_2025-09-21_10-41-44-113.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++17 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_10-41-43-136/Generated_Programs/generated_program_2025-09-21_10-41-44-113.cpp -o Output/2025-09-21_10-41-43-136/Generated_Programs/Compiled/generated_program_2025-09-21_10-41-44-113.cpp/generated_program_2025-09-21_10-41-44-113.cpp_clang++_c++17_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0770.o",
+        "status": "Failed",
+        "error": "clang++: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang++",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-21_10-41-43-136/Generated_Programs/generated_program_2025-09-21_10-41-44-113.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++ -std=c++20 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-21_10-41-43-136/Generated_Programs/generated_program_2025-09-21_10-41-44-113.cpp -o Output/2025-09-21_10-41-43-136/Generated_Programs/Compiled/generated_program_2025-09-21_10-41-44-113.cpp/generated_program_2025-09-21_10-41-44-113.cpp_clang++_c++20_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0770.o",
+        "status": "Failed",
+        "error": "clang++: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang++",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    }
+]

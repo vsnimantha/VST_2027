@@ -1,0 +1,15 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1620
+Successful compilations: 0
+Failed compilations: 1620
+
+Top Failure Reasons:
+- Compiler Internal Error (ICE): 1428 time(s)
+- General Compilation Error: 192 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-16_09-31-52-593/Generated_Programs/Data/generated_program_2025-05-16_09-31-53-527.cpp/success_log_clang++.json
+- Internal compilation errors: Output/2025-05-16_09-31-52-593/Generated_Programs/Data/generated_program_2025-05-16_09-31-53-527.cpp/ice_error_log_clang++.json
+- Errors: Output/2025-05-16_09-31-52-593/Generated_Programs/Data/generated_program_2025-05-16_09-31-53-527.cpp/error_log_clang++.json
+============================================================

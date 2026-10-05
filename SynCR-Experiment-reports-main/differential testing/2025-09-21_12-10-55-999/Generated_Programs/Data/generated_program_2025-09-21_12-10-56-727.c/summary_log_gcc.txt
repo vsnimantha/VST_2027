@@ -1,0 +1,12 @@
+
+=================== Compilation Summary ====================
+Total attempts: 42
+Successful compilations: 42
+Failed compilations: 0
+
+Detailed results saved to:
+- Successes: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/success_log_gcc.json
+- Internal compilation errors: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/ice_error_log_gcc.json
+- Errors: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/error_log_gcc.json
+- Differential Testing results: Output/2025-09-21_12-10-55-999/Generated_Programs/Data/generated_program_2025-09-21_12-10-56-727.c/differential_log_gcc.json
+============================================================

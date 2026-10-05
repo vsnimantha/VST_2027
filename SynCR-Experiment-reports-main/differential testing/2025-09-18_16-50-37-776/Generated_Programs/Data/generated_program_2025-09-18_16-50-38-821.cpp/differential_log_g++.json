@@ -1,0 +1,80 @@
+[
+    {
+        "compiler": "g++",
+        "variant_file": "generated_program_2025-09-18_16-50-38-821.cpp_g++_c++20_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0195.o",
+        "baseline_file": "generated_program_2025-09-18_16-50-38-821.cpp_g++_baseline.o",
+        "standard": "c++20",
+        "flags_used": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "mismatch_type": "diagnostic drift",
+        "baseline_output": "4\n",
+        "variant_output": "4\n",
+        "baseline_stderr": "",
+        "variant_stderr": "Output/2025-09-18_16-50-37-776/Generated_Programs/generated_program_2025-09-18_16-50-38-821.cpp:31:7: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'\n",
+        "baseline_return_code": 0,
+        "variant_return_code": 0,
+        "ir_diff": null,
+        "symbolic_diff": {
+            "baseline": {},
+            "variant": {},
+            "differences": {}
+        }
+    },
+    {
+        "compiler": "g++",
+        "variant_file": "generated_program_2025-09-18_16-50-38-821.cpp_g++_c++17_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0195.o",
+        "baseline_file": "generated_program_2025-09-18_16-50-38-821.cpp_g++_baseline.o",
+        "standard": "c++17",
+        "flags_used": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "mismatch_type": "diagnostic drift",
+        "baseline_output": "4\n",
+        "variant_output": "4\n",
+        "baseline_stderr": "",
+        "variant_stderr": "Output/2025-09-18_16-50-37-776/Generated_Programs/generated_program_2025-09-18_16-50-38-821.cpp:31:7: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'\n",
+        "baseline_return_code": 0,
+        "variant_return_code": 0,
+        "ir_diff": null,
+        "symbolic_diff": {
+            "baseline": {},
+            "variant": {},
+            "differences": {}
+        }
+    },
+    {
+        "compiler": "g++",
+        "variant_file": "generated_program_2025-09-18_16-50-38-821.cpp_g++_c++11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0195.o",
+        "baseline_file": "generated_program_2025-09-18_16-50-38-821.cpp_g++_baseline.o",
+        "standard": "c++11",
+        "flags_used": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "mismatch_type": "diagnostic drift",
+        "baseline_output": "4\n",
+        "variant_output": "4\n",
+        "baseline_stderr": "",
+        "variant_stderr": "Output/2025-09-18_16-50-37-776/Generated_Programs/generated_program_2025-09-18_16-50-38-821.cpp:31:7: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'\n",
+        "baseline_return_code": 0,
+        "variant_return_code": 0,
+        "ir_diff": null,
+        "symbolic_diff": {
+            "baseline": {},
+            "variant": {},
+            "differences": {}
+        }
+    }
+]

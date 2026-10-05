@@ -1,0 +1,294 @@
+{
+  "type": "root",
+  "value": "<function_recursive>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_recursive>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "alphaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num,",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "){",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<for_loop>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "for",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_initialization>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_data_type>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "int",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_identifier>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "i",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": "=",
+                      "children": []
+                    },
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_value>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "20",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_condition>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_condition_less_than>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "i<",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<for_loop_value>",
+                          "children": [
+                            {
+                              "type": "terminal",
+                              "value": "5",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": ";",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_update>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<for_loop_identifier>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "i",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": "++",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "){",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_body>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<print_statement>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "std::cout<<",
+                          "children": []
+                        },
+                        {
+                          "type": "rule",
+                          "value": "<message>",
+                          "children": [
+                            {
+                              "type": "rule",
+                              "value": "<rand_messages>",
+                              "children": [
+                                {
+                                  "type": "terminal",
+                                  "value": "\"Random value calculated\"",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "terminal",
+                          "value": "<<std::endl;",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "}",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": ">=",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "5)",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num;",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "alphaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(num,index-1);}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

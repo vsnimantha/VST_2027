@@ -1,0 +1,18 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1330
+Successful compilations: 0
+Failed compilations: 1330
+
+Top Failure Reasons:
+- Unused Variable Warning: 1032 time(s)
+- C89 Variable Declaration Violation: 260 time(s)
+- General Compilation Error: 20 time(s)
+- Unrecognized Argument Error: 10 time(s)
+- C89 Declaration Order Issue: 8 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-19_10-16-42-893/Generated_Programs/Data/generated_program_2025-05-19_10-16-43-938.c/success_log_gcc.json
+- Internal compilation errors: Output/2025-05-19_10-16-42-893/Generated_Programs/Data/generated_program_2025-05-19_10-16-43-938.c/ice_error_log_gcc.json
+- Errors: Output/2025-05-19_10-16-42-893/Generated_Programs/Data/generated_program_2025-05-19_10-16-43-938.c/error_log_gcc.json
+============================================================

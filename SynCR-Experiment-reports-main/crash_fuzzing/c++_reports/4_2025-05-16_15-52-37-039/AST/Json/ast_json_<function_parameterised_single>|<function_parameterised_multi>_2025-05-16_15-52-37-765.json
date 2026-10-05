@@ -1,0 +1,187 @@
+{
+  "type": "root",
+  "value": "<function_parameterised_multi>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_parameterised_multi>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "int",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "iotaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<parameter_list>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "bool",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "gammaPrimeParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "int",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "iotaParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ",",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<parameter>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "bool",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier_parameter>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "phiParam",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<printf_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "printf(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"This is a sample print statement\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

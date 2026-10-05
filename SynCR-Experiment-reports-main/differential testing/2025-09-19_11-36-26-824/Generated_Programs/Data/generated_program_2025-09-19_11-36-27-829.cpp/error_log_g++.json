@@ -1,0 +1,730 @@
+[
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0884.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0454.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0802.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0738.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0182.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0643.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0444.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0758.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0081.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0833.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0604.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "g++ -std=c++11 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0193.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "g++ -std=c++11 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "g++ -std=c++11 -g2 -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-g2', '-Wall', '-Wextra', '-Wconversion']_0860.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "g++ -std=c++11 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0932.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "g++ -std=c++11 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0685.o",
+        "status": "Failed",
+        "error": "cc1plus: warning: variable tracking requested, but useless unless producing debug info\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "g++ -std=c++11 -fPIC -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0855.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "g++ -std=c++11 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0944.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "g++ -std=c++11 -fno-common -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++11_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0676.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "g++ -std=c++17 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "g++ -std=c++20 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_g++_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                          ^~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: \u2018void_t\u2019 is not a member of \u2018std\u2019\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: note: \u2018std::void_t\u2019 is only available from C++17 onwards\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:68: error: template argument 2 is invalid\n   11 | struct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n      |                                                                    ^~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   15 | template <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: \u2018enable_if_t\u2019 in namespace \u2018std\u2019 does not name a template type\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                            ^~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:23: note: \u2018std::enable_if_t\u2019 is only available from C++14 onwards\n   19 | template <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n      |                       ^~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int lambdaFunc(int, int)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable \u2018upsilon\u2019 [-Wunused-variable]\n   24 |   double upsilon = 19 / 15;\n      |          ^~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018bool omegaFunc(double, float, bool)\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable \u2018upsilonPhi\u2019 [-Wunused-variable]\n   40 |   double upsilonPhi = 17 - 20;\n      |          ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter \u2018iotaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                ~~~~~~~^~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter \u2018chiThetaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                  ~~~~~~^~~~~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter \u2018gammaParam\u2019 [-Wunused-parameter]\n   39 | bool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n      |                                                       ~~~~~^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp: In function \u2018int main()\u2019:\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable \u2018omegaSigma\u2019 [-Wunused-variable]\n   49 |     double omegaSigma = 5 + 4;\n      |            ^~~~~~~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable \u2018piEta\u2019 [-Wunused-variable]\n   53 |     double piEta = 15 * 7;\n      |            ^~~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: \u2018test\u2019 was not declared in this scope\n   63 |   test(std::string(\"hi\"));\n      |   ^~~~\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "g++",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ]
+    }
+]

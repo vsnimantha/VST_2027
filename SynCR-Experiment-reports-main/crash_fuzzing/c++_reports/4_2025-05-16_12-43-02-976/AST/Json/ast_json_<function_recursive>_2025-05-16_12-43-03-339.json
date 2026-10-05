@@ -1,0 +1,158 @@
+{
+  "type": "root",
+  "value": "<function_recursive>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_recursive>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "rhoFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num,",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "){",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<print_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "std::cout<<",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<rand_messages>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "\"Security check passed\"",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "<<std::endl;",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": ">=",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "5)",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num;",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "rhoFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(num,index-1);}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

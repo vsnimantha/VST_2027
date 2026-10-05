@@ -1,0 +1,224 @@
+{
+  "type": "root",
+  "placeholder_name": "dwhl_1:DO_WHILE_LOOP",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<do_while_loop>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<do_while_loop_initialization>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<do_while_loop_data_type>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "int",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "rule",
+              "value": "<do_while_loop_identifier>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "kl",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": "=",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<do_while_loop_value>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "15",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ";",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "do",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<do_while_loop_body>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<array>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "data_type",
+                      "value": "float",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "identifier",
+                      "value": "upsilon",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "[",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_size>",
+                  "children": [
+                    {
+                      "type": "array_size",
+                      "value": "20",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "]",
+                  "children": []
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<array_values>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<rand_array_values>",
+                      "children": [
+                        {
+                          "type": "array_values",
+                          "value": "{18.0f,11.700347595761984f,2.0f,13.0f,18.0f,5.0f,17.0f,12.0f,18.0f,8.0f,87.51152040216769f,9.0f,5.0f,17.0f,11.0f,15.0f,5.0f,8.0f,5.0f,98.78372697486797f}",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "terminal",
+                      "value": ";",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<do_while_loop_update>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<do_while_loop_identifier>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "kl",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": "++;",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "while",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<do_while_loop_condition>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<do_while_loop_condition_greater_than>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "kl>",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<do_while_loop_value>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "5",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ");",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1330
+Successful compilations: 0
+Failed compilations: 1330
+
+Top Failure Reasons:
+- Compiler Internal Error (ICE): 1024 time(s)
+- C89 Variable Declaration Violation: 256 time(s)
+- General Compilation Error: 40 time(s)
+- Unrecognized Argument Error: 10 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-19_10-16-42-893/Generated_Programs/Data/generated_program_2025-05-19_10-16-43-938.c/success_log_gcc-12.json
+- Internal compilation errors: Output/2025-05-19_10-16-42-893/Generated_Programs/Data/generated_program_2025-05-19_10-16-43-938.c/ice_error_log_gcc-12.json
+- Errors: Output/2025-05-19_10-16-42-893/Generated_Programs/Data/generated_program_2025-05-19_10-16-43-938.c/error_log_gcc-12.json
+============================================================

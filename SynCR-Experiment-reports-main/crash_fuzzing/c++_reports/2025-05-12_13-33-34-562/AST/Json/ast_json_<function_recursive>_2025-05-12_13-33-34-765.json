@@ -1,0 +1,174 @@
+{
+  "type": "root",
+  "value": "<function_recursive>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_recursive>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "sigmaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num,",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "int",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "){",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<var_declaration>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "string",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "etaPhi",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<value>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "\"MajesticWhisper\"",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ";",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "if",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(index",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": ">=",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "5)",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "num;",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "return",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "sigmaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(num,index-1);}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "type": "root",
+  "placeholder_name": "fid_4:FUNCTION_DEFINITION_PARAM",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<function_parameterised_single>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<return_type>",
+          "children": [
+            {
+              "type": "return_type",
+              "value": "void",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<function_name>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "betaFunc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<parameter>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<data_type>",
+              "children": [
+                {
+                  "type": "data_type",
+                  "value": "bool",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "rule",
+              "value": "<identifier_parameter>",
+              "children": [
+                {
+                  "type": "identifier_parameter",
+                  "value": "thetaParam",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ")",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "{",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<statement>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<math_expression>",
+              "children": [
+                {
+                  "type": "rule",
+                  "value": "<math_data_type>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "double",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<identifier>",
+                  "children": [
+                    {
+                      "type": "identifier",
+                      "value": "nuGamma",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": "=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_number>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "11",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_operation>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "*",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "rule",
+                  "value": "<math_number>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "18",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ";",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

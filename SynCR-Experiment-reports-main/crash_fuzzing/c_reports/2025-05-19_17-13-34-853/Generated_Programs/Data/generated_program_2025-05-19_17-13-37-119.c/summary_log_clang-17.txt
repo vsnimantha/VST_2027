@@ -1,0 +1,16 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1330
+Successful compilations: 676
+Failed compilations: 654
+
+Top Failure Reasons:
+- Unused Variable Warning: 228 time(s)
+- Variable Redefinition Error: 226 time(s)
+- General Compilation Error: 200 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-19_17-13-34-853/Generated_Programs/Data/generated_program_2025-05-19_17-13-37-119.c/success_log_clang-17.json
+- Internal compilation errors: Output/2025-05-19_17-13-34-853/Generated_Programs/Data/generated_program_2025-05-19_17-13-37-119.c/ice_error_log_clang-17.json
+- Errors: Output/2025-05-19_17-13-34-853/Generated_Programs/Data/generated_program_2025-05-19_17-13-37-119.c/error_log_clang-17.json
+============================================================

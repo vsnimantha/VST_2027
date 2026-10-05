@@ -1,0 +1,794 @@
+[
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -O0 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-O0', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0884.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-O0",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -O2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-O2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0454.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -O3 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-O3', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0802.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -Ofast -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-Ofast', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0738.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -fno-strict-aliasing -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fno-strict-aliasing', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0182.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fno-strict-aliasing",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -ffast-math -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-ffast-math', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0643.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-ffast-math",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -fsanitize=address -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fsanitize=address', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0444.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=address",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -fsanitize=undefined -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fsanitize=undefined', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0758.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=undefined",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -fsanitize=leak -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fsanitize=leak', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0081.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=leak",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -m64 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-m64', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0833.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m64",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -march=native -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-march=native', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0604.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-march=native",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -mavx2 -Wall -Wextra -Wconversion -Wshadow Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-mavx2', '-Wall', '-Wextra', '-Wconversion', '-Wshadow']_0193.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mavx2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "clang++-16 -std=c++11 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++11 -g2 -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-g2', '-Wall', '-Wextra', '-Wconversion']_0860.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-g2",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++11 -gdwarf-4 -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-gdwarf-4', '-Wall', '-Wextra', '-Wconversion']_0932.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gdwarf-4",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++11 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0685.o",
+        "status": "Failed",
+        "error": "clang: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++11 -fPIC -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fPIC', '-Wall', '-Wextra', '-Wconversion']_0855.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fPIC",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++11 -fstack-protector-strong -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fstack-protector-strong', '-Wall', '-Wextra', '-Wconversion']_0944.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fstack-protector-strong",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++11 -fno-common -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++11_['-fno-common', '-Wall', '-Wextra', '-Wconversion']_0676.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "clang++-16 -std=c++17 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++17_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++17 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++17_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0685.o",
+        "status": "Failed",
+        "error": "clang: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ],
+        "command": "clang++-16 -std=c++20 -Wall -Wextra -Wconversion -std=c++11 Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++20_['-Wall', '-Wextra', '-Wconversion', '-std=c++11']_0119.o",
+        "status": "Failed",
+        "error": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:11:26: error: no template named 'void_t' in namespace 'std'; did you mean '__void_t'?\nstruct has_begin<T, std::void_t<decltype(std::declval<T>().begin())>>\n                    ~~~~~^~~~~~\n                         __void_t\n/usr/bin/../lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/type_traits:832:25: note: '__void_t' declared here\n  template<typename...> using __void_t = void;\n                        ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:15:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:19:28: error: no template named 'enable_if_t' in namespace 'std'\ntemplate <typename T> std::enable_if_t<!has_begin<T>::value, void> test(T) {\n                      ~~~~~^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:24:10: warning: unused variable 'upsilon' [-Wunused-variable]\n  double upsilon = 19 / 15;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:40:10: warning: unused variable 'upsilonPhi' [-Wunused-variable]\n  double upsilonPhi = 17 - 20;\n         ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:23: warning: unused parameter 'iotaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                      ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:40: warning: unused parameter 'chiThetaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                       ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:39:60: warning: unused parameter 'gammaParam' [-Wunused-parameter]\nbool omegaFunc(double iotaParam, float chiThetaParam, bool gammaParam) {\n                                                           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:49:12: warning: unused variable 'omegaSigma' [-Wunused-variable]\n    double omegaSigma = 5 + 4;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:53:12: warning: unused variable 'piEta' [-Wunused-variable]\n    double piEta = 15 * 7;\n           ^\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:63:3: error: no matching function for call to 'test'\n  test(std::string(\"hi\"));\n  ^~~~\nOutput/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp:64:3: error: no matching function for call to 'test'\n  test(42);\n  ^~~~\n7 warnings and 5 errors generated.\n",
+        "crash_reason": "Unused Variable Warning",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unused Variables (4)",
+            "details": "Variables not used: piEta, upsilon, omegaSigma, upsilonPhi",
+            "solution": "Remove unused variables or add usage",
+            "severity": "Low",
+            "bug_pattern": "UNUSED_VARIABLE"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-Wall",
+            "-Wextra",
+            "-Wconversion",
+            "-std=c++11"
+        ]
+    },
+    {
+        "filename": "Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ],
+        "command": "clang++-16 -std=c++20 -fvar-tracking -Wall -Wextra -Wconversion Output/2025-09-19_11-36-26-824/Generated_Programs/generated_program_2025-09-19_11-36-27-829.cpp -o Output/2025-09-19_11-36-26-824/Generated_Programs/Compiled/generated_program_2025-09-19_11-36-27-829.cpp/generated_program_2025-09-19_11-36-27-829.cpp_clang++-16_c++20_['-fvar-tracking', '-Wall', '-Wextra', '-Wconversion']_0685.o",
+        "status": "Failed",
+        "error": "clang: error: unknown argument: '-fvar-tracking'\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "clang++-16",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fvar-tracking",
+            "-Wall",
+            "-Wextra",
+            "-Wconversion"
+        ]
+    }
+]

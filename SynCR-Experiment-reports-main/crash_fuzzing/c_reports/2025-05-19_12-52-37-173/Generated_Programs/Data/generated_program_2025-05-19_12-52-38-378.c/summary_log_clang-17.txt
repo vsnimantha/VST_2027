@@ -1,0 +1,15 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1330
+Successful compilations: 0
+Failed compilations: 1330
+
+Top Failure Reasons:
+- General Compilation Error: 1327 time(s)
+- Timeout: 3 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-19_12-52-37-173/Generated_Programs/Data/generated_program_2025-05-19_12-52-38-378.c/success_log_clang-17.json
+- Internal compilation errors: Output/2025-05-19_12-52-37-173/Generated_Programs/Data/generated_program_2025-05-19_12-52-38-378.c/ice_error_log_clang-17.json
+- Errors: Output/2025-05-19_12-52-37-173/Generated_Programs/Data/generated_program_2025-05-19_12-52-38-378.c/error_log_clang-17.json
+============================================================

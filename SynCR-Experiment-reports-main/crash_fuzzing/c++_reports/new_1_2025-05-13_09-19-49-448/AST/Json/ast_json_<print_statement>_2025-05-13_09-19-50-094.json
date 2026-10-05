@@ -1,0 +1,33 @@
+{
+  "type": "root",
+  "value": "<print_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<print_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "std::cout<<",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<message>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "\"T589OEOALCAKKWJL1EO7\"",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "<<std::endl;",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

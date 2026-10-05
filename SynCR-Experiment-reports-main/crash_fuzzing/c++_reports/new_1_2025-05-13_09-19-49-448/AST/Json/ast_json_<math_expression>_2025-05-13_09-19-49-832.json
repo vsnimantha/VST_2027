@@ -1,0 +1,77 @@
+{
+  "type": "root",
+  "value": "<math_expression>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<math_expression>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<math_data_type>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "double",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "omicron",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<math_number>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<math_operation>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "*",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<math_number>",
+          "children": [
+            {
+              "type": "terminal",
+              "value": "8",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ";",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

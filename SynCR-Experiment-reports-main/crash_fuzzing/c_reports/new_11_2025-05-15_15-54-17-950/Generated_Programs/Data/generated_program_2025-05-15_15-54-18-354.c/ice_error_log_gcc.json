@@ -1,0 +1,392 @@
+[
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c89 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_c89_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:27:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   27 |   char deltaPsiParam = 'Y';\n      |   ^~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |   ^~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccikofW5.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccikofW5.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:27:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   27 |   char deltaPsiParam = 'Y';\n      |   ^~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |   ^~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccikofW5.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccikofW5.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu89 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_gnu89_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:27:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   27 |   char deltaPsiParam = 'Y';\n      |   ^~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |   ^~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccPRJ0vR.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccPRJ0vR.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:27:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   27 |   char deltaPsiParam = 'Y';\n      |   ^~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |   ^~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccPRJ0vR.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccPRJ0vR.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c99 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_c99_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/cc55pv0z.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/cc55pv0z.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/cc55pv0z.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/cc55pv0z.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu99 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_gnu99_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/cc9cZFJC.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/cc9cZFJC.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/cc9cZFJC.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/cc9cZFJC.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c11 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_c11_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccoDE56y.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccoDE56y.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccoDE56y.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccoDE56y.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu11 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_gnu11_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccq1WD60.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccq1WD60.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccq1WD60.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccq1WD60.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c17 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_c17_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccs5rVLY.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccs5rVLY.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccs5rVLY.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccs5rVLY.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu17 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_gnu17_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccjZecpp.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccjZecpp.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccjZecpp.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccjZecpp.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xdd): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=c2x -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_c2x_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccJCrFvq.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccJCrFvq.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xd8): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccJCrFvq.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccJCrFvq.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xd8): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc -std=gnu2x -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c -o Output/2025-05-15_15-54-17-950/Generated_Programs/Compiled/generated_program_2025-05-15_15-54-18-354.c_gnu2x_0216.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccdbZIkF.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccdbZIkF.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xd8): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018reshFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:8:8: warning: unused variable \u2018thetaIota\u2019 [-Wunused-variable]\n    8 |   char thetaIota = 's';\n      |        ^~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018gammaPrimeFunc\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:12:28: warning: unused parameter \u2018deltaPsiParam\u2019 [-Wunused-parameter]\n   12 | double gammaPrimeFunc(char deltaPsiParam) {\n      |                       ~~~~~^~~~~~~~~~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c: In function \u2018main\u2019:\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:24:12: warning: unused variable \u2018theta\u2019 [-Wunused-variable]\n   24 |     double theta = 5 / 11;\n      |            ^~~~~\nOutput/2025-05-15_15-54-17-950/Generated_Programs/generated_program_2025-05-15_15-54-18-354.c:32:7: warning: unused variable \u2018large_array\u2019 [-Wunused-variable]\n   32 |   int large_array[1000000000]; /* This may cause an internal compiler error due\n      |       ^~~~~~~~~~~\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\n/usr/bin/ld: /tmp/ccdbZIkF.o: in function `_gammaPrimeFunc':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0x37): undefined reference to `_printf'\n/usr/bin/ld: /tmp/ccdbZIkF.o: in function `_main':\ngenerated_program_2025-05-15_15-54-18-354.c:(.text+0xd8): undefined reference to `___stack_chk_fail'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "14.2.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    }
+]

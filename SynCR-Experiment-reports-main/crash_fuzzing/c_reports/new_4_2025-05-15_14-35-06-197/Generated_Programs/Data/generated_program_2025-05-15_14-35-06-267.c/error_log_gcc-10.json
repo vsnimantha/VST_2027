@@ -1,0 +1,2112 @@
+[
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c89 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c89 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c89 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c89 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c89 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c89",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c89 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c89_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu89 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu89 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu89 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu89 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu89 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu89",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu89 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu89_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c99 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c99 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c99 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c99 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c99 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c99",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c99 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c99_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu99 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu99 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu99 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu99 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu99 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu99",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu99 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu99_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c11 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c11 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c11 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c11 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c11 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c11",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c11 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c11_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu11 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu11 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu11 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu11 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu11 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu11",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu11 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu11_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c17 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c17 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c17 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c17 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c17 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c17",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c17 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c17_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu17 -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu17 -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu17 -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu17 -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu17 -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu17",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu17 -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu17_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c2x -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c2x -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=c2x -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c2x -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c2x -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=c2x -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_c2x_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu2x -fsanitize=memory -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0575.o",
+        "status": "Failed",
+        "error": "gcc-10: error: unrecognized argument to \u2018-fsanitize=\u2019 option: \u2018memory\u2019\n",
+        "crash_reason": "Unrecognized Argument Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unrecognized argument: unknown_argument",
+            "details": "The compiler doesn't recognize the 'unknown_argument' argument",
+            "solution": "Remove 'unknown_argument' or check for correct syntax",
+            "severity": "Low",
+            "bug_pattern": "UNRECOGNIZED_ARGUMENT"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fsanitize=memory",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu2x -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0441.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "gcc-10 -std=gnu2x -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0181.o",
+        "status": "Failed",
+        "error": "In file included from Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:3:\n/usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory\n   28 | #include <bits/libc-header-start.h>\n      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~\ncompilation terminated.\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu2x -gxcoff -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0723.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu2x -gxcoff+ -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0962.o",
+        "status": "Failed",
+        "error": "cc1: error: target system does not support the \u2018xcoff\u2019 debug format\n",
+        "crash_reason": "General Compilation Error",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Unhandled Compilation Error",
+            "details": "The compiler encountered an issue that does not match predefined error patterns.",
+            "solution": "Check the full error message for clues, verify syntax and compiler settings, and try compiling with different flags or debugging tools.",
+            "severity": "Medium",
+            "bug_pattern": "GENERAL_COMPILATION_ERROR"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-gxcoff+",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ],
+        "command": "gcc-10 -std=gnu2x -fleading-underscore -Wall -Wextra -pedantic Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c -o Output/2025-05-15_14-35-06-197/Generated_Programs/Compiled/generated_program_2025-05-15_14-35-06-267.c_gnu2x_0099.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "gcc-10",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c: In function \u2018main\u2019:\nOutput/2025-05-15_14-35-06-197/Generated_Programs/generated_program_2025-05-15_14-35-06-267.c:23:7: warning: unused variable \u2018r\u2019 [-Wunused-variable]\n   23 |       r; /* This may cause an internal compiler error due to deep nesting */\n      |       ^\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\ncollect2: error: ld returned 1 exit status",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "10.5.0",
+            "compiler_flags": [
+                "-fleading-underscore",
+                "-Wall",
+                "-Wextra",
+                "-pedantic"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-fleading-underscore",
+            "-Wall",
+            "-Wextra",
+            "-pedantic"
+        ]
+    }
+]

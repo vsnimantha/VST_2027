@@ -1,0 +1,182 @@
+[
+    {
+        "filename": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang-15 -std=c2x -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c -o Output/2025-05-15_15-37-57-660/Generated_Programs/Compiled/generated_program_2025-05-15_15-37-58-489.c_c2x_0868.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "clang-15",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "15.0.7",
+            "compiler_flags": [
+                "-m32",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c",
+        "language": "c",
+        "standard": "-std=c2x",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang-15 -std=c2x -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c -o Output/2025-05-15_15-37-57-660/Generated_Programs/Compiled/generated_program_2025-05-15_15-37-58-489.c_c2x_0775.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "clang-15",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "15.0.7",
+            "compiler_flags": [
+                "-mx32",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang-15 -std=gnu2x -m32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c -o Output/2025-05-15_15-37-57-660/Generated_Programs/Compiled/generated_program_2025-05-15_15-37-58-489.c_gnu2x_0868.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "clang-15",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "15.0.7",
+            "compiler_flags": [
+                "-m32",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-m32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    },
+    {
+        "filename": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c",
+        "language": "c",
+        "standard": "-std=gnu2x",
+        "flags": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang-15 -std=gnu2x -mx32 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c -o Output/2025-05-15_15-37-57-660/Generated_Programs/Compiled/generated_program_2025-05-15_15-37-58-489.c_gnu2x_0775.o",
+        "status": "Failed",
+        "error": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)\n",
+        "crash_reason": "Compiler Internal Error (ICE)",
+        "compiler": "clang-15",
+        "readable_error": {
+            "summary": "Compiler Internal Failure",
+            "details": "Output/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: warning: call to undeclared library function 'printf' with type 'int (const char *, ...)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]\n      printf(\"This is a sample print statement\");\n      ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:13:7: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:20:11: warning: unused variable 'alphaTau' [-Wunused-variable]\n      int alphaTau = 10 * 12;\n          ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:49:2: warning: no newline at end of file [-Wnewline-eof]\n}\n ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:8:8: warning: unused variable 'gamma' [-Wunused-variable]\n  char gamma = 'b';\n       ^\nOutput/2025-05-15_15-37-57-660/Generated_Programs/generated_program_2025-05-15_15-37-58-489.c:46:15: warning: unused variable 'd' [-Wunused-variable]\n  struct Deep d[10000]; /* This may cause an internal compiler error due to deep\n              ^\n5 warnings generated.\n/usr/bin/ld: cannot find Scrt1.o: No such file or directory\n/usr/bin/ld: cannot find crti.o: No such file or directory\n/usr/bin/ld: cannot find crtbeginS.o: No such file or directory\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.a when searching for -lc\n/usr/bin/ld: cannot find -lc: No such file or directory\n/usr/bin/ld: skipping incompatible /usr/lib/x86_64-linux-gnu/libc.so when searching for -lc\n/usr/bin/ld: cannot find -lgcc: No such file or directory\n/usr/bin/ld: cannot find -lgcc_s: No such file or directory\n/usr/bin/ld: cannot find crtendS.o: No such file or directory\n/usr/bin/ld: cannot find crtn.o: No such file or directory\nclang: error: linker command failed with exit code 1 (use -v to see invocation)",
+            "solution": "Report to maintainers with minimal reproducer",
+            "severity": "Critical",
+            "gcc_version": "15.0.7",
+            "compiler_flags": [
+                "-mx32",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ],
+            "bug_pattern": "ICE - internal compiler error[:,-]?\\s*(.+)"
+        },
+        "debugging_tips": [
+            "Review compiler output for specific error details"
+        ],
+        "flags_used": [
+            "-mx32",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ]
+    }
+]

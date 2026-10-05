@@ -1,0 +1,17 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1620
+Successful compilations: 0
+Failed compilations: 1620
+
+Top Failure Reasons:
+- Unused Variable Warning: 1548 time(s)
+- General Compilation Error: 48 time(s)
+- Unknown error: 12 time(s)
+- Unrecognized Argument Error: 12 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-15_17-22-31-195/Generated_Programs/Data/generated_program_2025-05-15_17-22-32-928.cpp/success_log_g++-12.json
+- Internal compilation errors: Output/2025-05-15_17-22-31-195/Generated_Programs/Data/generated_program_2025-05-15_17-22-32-928.cpp/ice_error_log_g++-12.json
+- Errors: Output/2025-05-15_17-22-31-195/Generated_Programs/Data/generated_program_2025-05-15_17-22-32-928.cpp/error_log_g++-12.json
+============================================================

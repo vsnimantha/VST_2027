@@ -1,0 +1,15 @@
+
+=================== Compilation Summary ====================
+Total attempts: 1330
+Successful compilations: 919
+Failed compilations: 411
+
+Top Failure Reasons:
+- Variable Redefinition Error: 231 time(s)
+- General Compilation Error: 180 time(s)
+
+Detailed results saved to:
+- Successes: Output/2025-05-19_17-11-38-136/Generated_Programs/Data/generated_program_2025-05-19_17-11-39-146.c/success_log_clang-15.json
+- Internal compilation errors: Output/2025-05-19_17-11-38-136/Generated_Programs/Data/generated_program_2025-05-19_17-11-39-146.c/ice_error_log_clang-15.json
+- Errors: Output/2025-05-19_17-11-38-136/Generated_Programs/Data/generated_program_2025-05-19_17-11-39-146.c/error_log_clang-15.json
+============================================================

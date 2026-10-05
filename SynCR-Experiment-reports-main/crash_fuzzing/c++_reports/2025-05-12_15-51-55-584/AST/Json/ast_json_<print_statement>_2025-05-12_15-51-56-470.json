@@ -1,0 +1,39 @@
+{
+  "type": "root",
+  "value": "<print_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<print_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "std::cout<<",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<message>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<rand_messages>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "\"Random value calculated\"",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "<<std::endl;",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

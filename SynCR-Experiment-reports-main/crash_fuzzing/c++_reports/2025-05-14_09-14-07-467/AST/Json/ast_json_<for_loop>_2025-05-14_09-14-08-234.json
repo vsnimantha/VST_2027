@@ -1,0 +1,175 @@
+{
+  "type": "root",
+  "value": "<for_loop>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<for_loop>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "for",
+          "children": []
+        },
+        {
+          "type": "terminal",
+          "value": "(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<for_loop_initialization>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<for_loop_data_type>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "int",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "rule",
+              "value": "<for_loop_identifier>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "i",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": "=",
+              "children": []
+            },
+            {
+              "type": "rule",
+              "value": "<for_loop_value>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": ";",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<for_loop_condition>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<for_loop_condition_less_than_or_equal>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "i<=",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<for_loop_value>",
+                  "children": [
+                    {
+                      "type": "terminal",
+                      "value": "5",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ";",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<for_loop_update>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<for_loop_identifier>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "i",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "terminal",
+              "value": "++",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "){",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<for_loop_body>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<printf_statement>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "printf(",
+                  "children": []
+                },
+                {
+                  "type": "rule",
+                  "value": "<message>",
+                  "children": [
+                    {
+                      "type": "rule",
+                      "value": "<rand_messages>",
+                      "children": [
+                        {
+                          "type": "terminal",
+                          "value": "\"Warning: low memory\"",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "terminal",
+                  "value": ");",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "}",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

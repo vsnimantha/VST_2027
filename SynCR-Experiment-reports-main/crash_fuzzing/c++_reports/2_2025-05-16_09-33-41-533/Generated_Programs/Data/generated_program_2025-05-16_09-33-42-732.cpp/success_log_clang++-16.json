@@ -1,0 +1,2752 @@
+[
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++11",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++11 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++11_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++11_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++11",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++11 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++11_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=gnu++11",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++14",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++14 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++14_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++14",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++14 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++14_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=gnu++14",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++17",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++17 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++17_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++17",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++17 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++17_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=gnu++17",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=c++20",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=c++20 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_c++20_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=c++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-O1",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -O1 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0389.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0389.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O1",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-O1",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -O2 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0202.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0202.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O2",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-O2",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-O3",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -O3 -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0914.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0914.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O3",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-O3",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-Os",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -Os -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0313.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0313.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Os",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-Ofast",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -Ofast -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0161.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0161.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Ofast",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-Ofast",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-Og",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -Og -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0036.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0036.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-Og",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-Og",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    },
+    {
+        "filename": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp",
+        "language": "c++",
+        "standard": "-std=gnu++20",
+        "flags": [
+            "-flto",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wconversion",
+            "-Wshadow"
+        ],
+        "command": "clang++-16 -std=gnu++20 -flto -Wall -Wextra -pedantic -Wconversion -Wshadow Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp -o Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0002.o",
+        "status": "Success",
+        "output_file": "Output/2025-05-16_09-33-41-533/Generated_Programs/Compiled/generated_program_2025-05-16_09-33-42-732.cpp_gnu++20_0002.o",
+        "warnings": "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 20; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:9:12: note: previous declaration is here\n  for (int i = 5; i >= 15; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]\n    double etaPhi = 1 / 19;\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]\n    for (int i = 0; i < 9; i++) {\n             ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:38:12: note: previous declaration is here\n  for (int i = 15; i <= 5; i++) {\n           ^\nOutput/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]\n    double alphaBeta = 2 * 12;\n           ^\n4 warnings generated.\n",
+        "compiler": "clang++-16",
+        "readable_summary": {
+            "status": "Compilation successful",
+            "warnings": {
+                "count": 4,
+                "items": [
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:17:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:31:12: warning: unused variable 'etaPhi' [-Wunused-variable]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:41:14: warning: declaration shadows a local variable [-Wshadow]",
+                    "Output/2025-05-16_09-33-41-533/Generated_Programs/generated_program_2025-05-16_09-33-42-732.cpp:62:12: warning: unused variable 'alphaBeta' [-Wunused-variable]"
+                ],
+                "most_common": [
+                    [
+                        "declaration shadows a local variable [-Wshadow]",
+                        2
+                    ],
+                    [
+                        "unused variable 'etaPhi' [-Wunused-variable]",
+                        1
+                    ],
+                    [
+                        "unused variable 'alphaBeta' [-Wunused-variable]",
+                        1
+                    ]
+                ]
+            },
+            "optimization_level": "-O0 (default)",
+            "standard_used": "-std=gnu++20",
+            "flag_count": 6,
+            "flags_used": [
+                "-flto",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-Wconversion",
+                "-Wshadow"
+            ]
+        }
+    }
+]

@@ -1,0 +1,56 @@
+{
+  "type": "root",
+  "placeholder_name": "var_1:VAR_DECLARATION",
+  "value": null,
+  "children": [
+    {
+      "type": "rule",
+      "value": "<var_declaration>",
+      "children": [
+        {
+          "type": "rule",
+          "value": "<data_type>",
+          "children": [
+            {
+              "type": "data_type",
+              "value": "int",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "value": "<identifier>",
+          "children": [
+            {
+              "type": "identifier",
+              "value": "xi",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": "=",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<value>",
+          "children": [
+            {
+              "type": "random_variable_value",
+              "value": "68",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ";",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

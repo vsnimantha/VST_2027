@@ -1,0 +1,39 @@
+{
+  "type": "root",
+  "value": "<print_statement>",
+  "children": [
+    {
+      "type": "rule",
+      "value": "<print_statement>",
+      "children": [
+        {
+          "type": "terminal",
+          "value": "printf(",
+          "children": []
+        },
+        {
+          "type": "rule",
+          "value": "<message>",
+          "children": [
+            {
+              "type": "rule",
+              "value": "<rand_messages>",
+              "children": [
+                {
+                  "type": "terminal",
+                  "value": "\"Connection lost\"",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "terminal",
+          "value": ");",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

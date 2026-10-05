@@ -1,0 +1,31 @@
+// AST
+digraph {
+	rankdir=TB
+	132131471717952 [label="root: <array>"]
+	132131471718336 [label="rule: <array>"]
+	132131471717952 -> 132131471718336
+	132131471717504 [label="rule: <data_type>"]
+	132131471718336 -> 132131471717504
+	132131471717888 [label="terminal: string"]
+	132131471717504 -> 132131471717888
+	132131471717568 [label="rule: <identifier>"]
+	132131471718336 -> 132131471717568
+	132131471717760 [label="terminal: gamma"]
+	132131471717568 -> 132131471717760
+	132131471717440 [label="terminal: ["]
+	132131471718336 -> 132131471717440
+	132131471718080 [label="rule: <array_size>"]
+	132131471718336 -> 132131471718080
+	132131471718400 [label="terminal: 13"]
+	132131471718080 -> 132131471718400
+	132131471718720 [label="terminal: ]"]
+	132131471718336 -> 132131471718720
+	132131471718656 [label="terminal: ="]
+	132131471718336 -> 132131471718656
+	132131471717696 [label="rule: <array_values>"]
+	132131471718336 -> 132131471717696
+	132131471713216 [label="terminal: {\"BrilliantStar\",\"BrilliantStar\",\"MajesticWhisper\",\"MajesticWhisper\",\"AzureFlame\",\"MysticHarmony\",\"MajesticWhisper\",\"MajesticWhisper\",\"CrystalCascade\",\"MysticHarmony\",\"MajesticWhisper\",\"GoldenPhoenix\",\"MysticHarmony\"}"]
+	132131471717696 -> 132131471713216
+	132131471716992 [label="terminal: ;"]
+	132131471717696 -> 132131471716992
+}

@@ -1,0 +1,12 @@
+
+=================== Compilation Summary ====================
+Total attempts: 66
+Successful compilations: 66
+Failed compilations: 0
+
+Detailed results saved to:
+- Successes: Output/2025-10-06_10-20-42-809/Generated_Programs/Data/generated_program_2025-10-06_10-20-43-908.cpp/success_log_g++-13.json
+- Internal compilation errors: Output/2025-10-06_10-20-42-809/Generated_Programs/Data/generated_program_2025-10-06_10-20-43-908.cpp/ice_error_log_g++-13.json
+- Errors: Output/2025-10-06_10-20-42-809/Generated_Programs/Data/generated_program_2025-10-06_10-20-43-908.cpp/error_log_g++-13.json
+- Differential Testing results: Output/2025-10-06_10-20-42-809/Generated_Programs/Data/generated_program_2025-10-06_10-20-43-908.cpp/differential_log_g++-13.json
+============================================================
