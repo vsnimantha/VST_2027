@@ -64,6 +64,18 @@ VST_2027/
 └── ...
 ```
 
+## Relation to the paper
+
+This repository accompanies the VST 2027 workshop paper *Testing Compiler Plugins through Configurable Program Generation: Challenges, Strategies, and Lessons*. The table shows where the artefacts discussed in the paper can be found.
+
+| Paper element | Location in this repository |
+| --- | --- |
+| SynCR generator: activation-oriented templates, configurable BNF grammar, context-aware generation, native fragments, random and usage-balanced selection | `SynCR/` (`Grammar/`, `Grammar_Parser/`, `Template_Manager/`, `Program_Generator/`, `Program_Templates/`, `Config/`) |
+| Plugin-specific template sets (`cprintf`, `SecRetAddress`) | `SynCR/Program_Templates/Templates_CPP_GP_CPRINTF_CRSH/` and `SynCR/Program_Templates/Templates_CPP_GP_SECRET_ADDRESS_CRASH/` |
+| Supplementary compiler demonstration: templates reproducing reported GCC and LLVM issues | `SynCR/Program_Templates/Templates_C/` and `SynCR/Program_Templates/Templates_CPP/`. The first lines of each template link the reported issue (for example GCC 120129 in `Templates_CPP/Template_15.tmpl`, GCC 118388 in `Templates_CPP/Template_17.tmpl`, LLVM 139372 in `Templates_CPP/Template_18.tmpl`, GCC 97991 in `Templates_C/Template_19.tmpl`, LLVM 129873 in `Templates_C/Template_18.tmpl`) |
+| Generated programs and compiler error logs for those runs | `SynCR-Experiment-reports-main/crash_fuzzing/c_reports/` and `SynCR-Experiment-reports-main/crash_fuzzing/c++_reports/` |
+| Differential-testing runs | `SynCR-Experiment-reports-main/differential testing/` (additional experiments that are not reported in the paper) |
+
 ## How to use SynCR
 
 ### 1. Install dependencies
